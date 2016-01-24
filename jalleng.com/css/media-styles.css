@@ -5,6 +5,14 @@
   .break {
     display: inline;
   }
+  #banner {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    position: ;
+    background: url("../img/blue-drops2.png");
+    outline: 2px dashed orange;
+  }
 }
 @media only screen and (max-width: 700px) {
   .projects figure {
@@ -31,3 +39,18 @@
     margin-left: 3%;
     margin-right: 3%;
   }
+  #banner {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff ;
+    background: url("../img/blue-drops2.png");
+    outline: 1px dashed orange;
+  }
+  /*#jalleng {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    outline: 2px dashed orange;
+  }*/
+}

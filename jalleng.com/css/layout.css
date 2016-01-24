@@ -1,0 +1,61 @@
+
+#flextest {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    width: 100%;
+    background-color: #848484;
+    /*outline: 1px dashed orange;*/
+
+
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+.left {
+    justify-content: flex-start;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-family: cursive;
+    font-size: 50px;
+    color: #ffffff;
+    background: url("../img/blue-drops2.png");
+    /*outline: 1px dashed orange;*/
+
+}
+#jalleng {
+
+
+    /*outline: 1px dashed orange;*/
+}
+.icon-github {
+    height: 23px;
+    width: 23px;
+    padding-top: 4px;
+    padding-right: 20px;
+}
+/*.icon-twitter {
+    padding-right: 5px;
+}
+.icon-mail {
+    padding-right: 5px;
+}*/
+.social {
+    padding-right: 5px;
+}
+.navTab {
+    color: #0d2636;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
